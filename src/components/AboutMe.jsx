@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="relative min-h-screen w-full bg-gray-800 text-white">
       {/* Background Icons */}
-      <div className="absolute inset-0 grid grid-cols-2 gap-12 sm:gap-16 lg:gap-24 p-8 sm:p-16 lg:p-24">
+      {/* <div className="absolute inset-0 grid grid-cols-2 gap-12 sm:gap-16 lg:gap-24 p-8 sm:p-16 lg:p-24">
         <div className="flex flex-col items-center gap-12">
           <img
             className="w-20 h-20 lg:w-32 lg:h-32 opacity-10 hover:opacity-20 transition-opacity duration-300"
@@ -29,7 +29,7 @@ const AboutMe = () => {
             alt="DNA Icon"
           />
         </div>
-      </div>
+      </div> */}
 
       {/* Content Section */}
       <div className="relative z-10 px-8 md:px-16 lg:px-32 py-16 flex flex-col sm:flex-row space-y-12 sm:space-y-0 sm:space-x-12">
