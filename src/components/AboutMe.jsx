@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="relative min-h-screen w-full bg-gray-800 text-white">
+    <div className="relative min-h-screen w-full bg-gray-800 text-white content-center" >
       {/* Background Icons */}
       {/* <div className="absolute inset-0 grid grid-cols-2 gap-12 sm:gap-16 lg:gap-24 p-8 sm:p-16 lg:p-24">
         <div className="flex flex-col items-center gap-12">

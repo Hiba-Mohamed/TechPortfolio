@@ -41,13 +41,13 @@ const Banner = () => {
         >
           <Link
             to="/contact"
-            className="px-6 sm:px-8 py-3 text-sm sm:text-lg lg:text-xl font-bold rounded-md border-4 border-teal-400 text-teal-400 hover:bg-teal-400 hover:text-gray-900 transition duration-300"
+            className="w-full sm:w-40 md:w-56 px-6 py-3 text-sm sm:text-lg lg:text-xl font-bold rounded-md border-4 border-teal-400 text-teal-400 hover:bg-teal-400 hover:text-gray-900 transition duration-300 text-center"
           >
             Contact Me
           </Link>
           <a
             href="#projects"
-            className="px-6 sm:px-8 py-3 text-sm sm:text-lg lg:text-xl font-bold rounded-md border-4 border-white text-white hover:bg-white hover:text-gray-900 transition duration-300"
+            className="w-full sm:w-40 md:w-56 px-6 py-3 text-sm sm:text-lg lg:text-xl font-bold rounded-md border-4 border-white text-white hover:bg-white hover:text-gray-900 transition duration-300 text-center"
           >
             Featured Projects
           </a>
