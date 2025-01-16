@@ -2,7 +2,10 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="relative min-h-screen w-full bg-gray-800 text-white content-center" >
+    <div className="relative min-h-screen w-full  text-white content-center pt-24">
+      <div className="absolute inset-0 bg-gradient-to-r from-teal-500 to-transparent opacity-10 blur-3xl"></div>
+      <div className="absolute -top-10 -left-20 w-96 h-96 bg-gradient-to-b from-indigo-600 via-purple-500 to-pink-500 opacity-20 rounded-full filter blur-3xl"></div>
+
       {/* Background Icons */}
       {/* <div className="absolute inset-0 grid grid-cols-2 gap-12 sm:gap-16 lg:gap-24 p-8 sm:p-16 lg:p-24">
         <div className="flex flex-col items-center gap-12">
@@ -63,6 +66,14 @@ const AboutMe = () => {
             healthcare settings.
           </p>
         </div>
+      </div>
+      {/* Decorative Divider */}
+      <div className="w-full my-40 lg:my-60">
+        <div
+          className="h-1 bg-gradient-to-r from-teal-500 via-indigo-600 to-purple-500 rounded-full mx-auto max-w-xs sm:max-w-md"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        ></div>
       </div>
     </div>
   );

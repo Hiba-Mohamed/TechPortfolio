@@ -8,10 +8,8 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="relative flex flex-col w-full bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-slate-50 py-20 overflow-hidden">
-      {/* Background Decorative Elements */}
-      <div className="absolute inset-0 bg-gradient-to-r from-teal-500 to-transparent opacity-10 blur-3xl"></div>
-      <div className="absolute -top-10 -right-20 w-96 h-96 bg-gradient-to-b from-indigo-600 via-purple-500 to-pink-500 opacity-20 rounded-full filter blur-3xl"></div>
+    <div className="relative flex flex-col w-full overflow-hidden  ">
+      <div className="absolute top-1/2 right-0 transform -translate-y-1/2 w-96 h-96 bg-gradient-to-b from-indigo-600 via-purple-500 to-pink-500 opacity-20 rounded-full filter blur-3xl"></div>
 
       {/* Header Section */}
       <div
@@ -77,7 +75,7 @@ const Skills = () => {
       </div>
 
       {/* Decorative Divider */}
-      <div className="w-full mt-16">
+      <div className="w-full my-40 lg:my-60">
         <div
           className="h-1 bg-gradient-to-r from-teal-500 via-indigo-600 to-purple-500 rounded-full mx-auto max-w-xs sm:max-w-md"
           data-aos="zoom-in"

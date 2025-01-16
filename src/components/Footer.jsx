@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="bg-black font-OpenSans px-6 py-6 sm:py-10">
+    <footer className="bg-gray-900 font-OpenSans px-6 py-6 sm:py-10">
       <div className="max-w-7xl mx-auto flex flex-col items-center space-y-4 text-center">
         {/* Creator Info */}
         <p className="text-gray-100 text-base sm:text-lg font-semibold">
@@ -18,8 +18,6 @@ export function Footer() {
           © 2024 All Rights Reserved.
         </span>
 
-        {/* Decorative Line */}
-        <div className="w-full max-w-md border-t border-teal-300 mt-4"></div>
       </div>
     </footer>
   );

@@ -1,6 +1,6 @@
 export function Heading() {
   return (
-    <nav className="bg-black font-OpenSans shadow-lg">
+    <nav className="bg-gray-900 font-OpenSans shadow-lg">
       <div className="max-w-7xl mx-auto px-6 sm:px-10 flex items-center justify-between py-4">
         {/* Logo or Brand Name */}
         {/* Navigation Links */}
