@@ -11,7 +11,7 @@ const Banner = () => {
   return (
     <div className="relative min-h-screen w-full bg-center bg-no-repeat bg-cover bg-banner flex items-center justify-center overflow-hidden">
       {/* Background Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-gray-900/80 to-gray-800/70"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-gray-900/100 to-gray-900/80"></div>
 
       {/* Content */}
       <div
