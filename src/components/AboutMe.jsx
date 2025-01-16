@@ -39,7 +39,7 @@ const AboutMe = () => {
         {/* Aspiring Software Developer */}
         <div className="sm:flex-1 bg-gray-900 bg-opacity-80 p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
           <h2 className="text-3xl font-bold text-teal-400 lg:text-4xl">
-            Aspiring Software Developer
+            Software Developer
           </h2>
           <p className="mt-4 text-lg lg:text-xl leading-relaxed">
             Enthusiastic and motivated aspiring software developer with a
