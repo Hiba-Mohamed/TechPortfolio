@@ -27,7 +27,8 @@ module.exports = {
         256: "64rem", // 1024px
       },
       backgroundImage: {
-        banner: "url('omer-yildiz-U7rwm4WmIPA-unsplash.jpg')",
+        banner:
+          "url('Gemini_Generated_Image_5ead3n5ead3n5ead.jpeg')",
       },
       colors: {
         navy: "#08263C",

@@ -1,32 +1,88 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
-    <div className=" flex flex-col relative w-full bg-gray-800 text-slate-50 gap-10 pb-40 sm:pb-56">
-      <div className="flex flex-row gap-20  sm:gap-64 px-10 sm:px-20 pt-24 sm:pt-0">
-        <h2 className="text-3xl font-bold sm:text-5xl">My Skills</h2>
-        <p className="text-3xl font-bold text-gray-700 sm:text-5xl  ">
+    <div className="relative flex flex-col w-full bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-slate-50 py-20 overflow-hidden">
+      {/* Background Decorative Elements */}
+      <div className="absolute inset-0 bg-gradient-to-r from-teal-500 to-transparent opacity-10 blur-3xl"></div>
+      <div className="absolute -top-10 -right-20 w-96 h-96 bg-gradient-to-b from-indigo-600 via-purple-500 to-pink-500 opacity-20 rounded-full filter blur-3xl"></div>
+
+      {/* Header Section */}
+      <div
+        className="flex flex-col items-center gap-4 sm:gap-6 px-8 sm:px-20"
+        data-aos="fade-down"
+      >
+        <h2 className="text-4xl sm:text-6xl font-extrabold text-center tracking-wide">
+          My Skills
+        </h2>
+        <p className="text-3xl sm:text-5xl font-extrabold text-teal-400 tracking-wider animate-pulse">
           &lt;/&gt;
         </p>
       </div>
-      <div>
-        <ul className="flex flex-col px-10 sm:px-20 text-lg gap-5 sm:text-2xl sm:gap-10">
-          <li>
-            <strong>Languages: <br/></strong> JavaScript, TypeScript, ejs, Python, Java
+
+      {/* Skills List */}
+      <div
+        className="mt-12 sm:mt-20 px-8 sm:px-20"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-16 text-lg sm:text-2xl">
+          <li className="group">
+            <strong className="block text-teal-300 mb-2 transition duration-300 group-hover:text-teal-400">
+              Languages:
+            </strong>
+            <span className="block transition-opacity duration-500 group-hover:opacity-80">
+              JavaScript, TypeScript, EJS, Python, Java
+            </span>
           </li>
-          <li>
-            <strong>Web Development:<br/> </strong> HTML, CSS, React, Node.js
+          <li className="group">
+            <strong className="block text-teal-300 mb-2 transition duration-300 group-hover:text-teal-400">
+              Web Development:
+            </strong>
+            <span className="block transition-opacity duration-500 group-hover:opacity-80">
+              HTML, CSS, React, Node.js, Material UI, Tailwind
+            </span>
           </li>
-          <li>
-            <strong>Database Management:<br/></strong> MongoDB, SQL
+          <li className="group">
+            <strong className="block text-teal-300 mb-2 transition duration-300 group-hover:text-teal-400">
+              Database Management:
+            </strong>
+            <span className="block transition-opacity duration-500 group-hover:opacity-80">
+              MongoDB, SQL
+            </span>
           </li>
-          <li>
-            <strong>Tools: </strong><br/>Git, Figma, Canva, GitHub, AI 
+          <li className="group">
+            <strong className="block text-teal-300 mb-2 transition duration-300 group-hover:text-teal-400">
+              Tools:
+            </strong>
+            <span className="block transition-opacity duration-500 group-hover:opacity-80">
+              Git, Figma, Canva, GitHub, AI
+            </span>
           </li>
-          <li>
-            <strong>Cloud Computing: <br/> </strong>AWS Cloud Practitioner Course, AWS Cloud Development course
+          <li className="group">
+            <strong className="block text-teal-300 mb-2 transition duration-300 group-hover:text-teal-400">
+              Cloud Computing:
+            </strong>
+            <span className="block transition-opacity duration-500 group-hover:opacity-80">
+              AWS Cloud Practitioner Course, AWS Cloud Development Course
+            </span>
           </li>
         </ul>
+      </div>
+
+      {/* Decorative Divider */}
+      <div className="w-full mt-16">
+        <div
+          className="h-1 bg-gradient-to-r from-teal-500 via-indigo-600 to-purple-500 rounded-full mx-auto max-w-xs sm:max-w-md"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        ></div>
       </div>
     </div>
   );

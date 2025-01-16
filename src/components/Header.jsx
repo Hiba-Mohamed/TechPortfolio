@@ -1,20 +1,23 @@
 export function Heading() {
   return (
-    <nav className="bg-navy font-OpenSans">
-      <div className="max-w-2xl flex flex-wrap items-center justify-between mx-auto px-4 max-w-7xl">
-          <ul className="text-xs pt-2 md:flex flex gap-6 flex-row items-center font-medium rounded-lg md:pt-2 md:pb-2">
-            <li>
-              <a
-                href="http://github.com/Hiba-Mohamed"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block font-bold py-1 px-4 text-white rounded hover:text-gray-50 border border-white rounded-md hover:bg-gray-950 hover:text-gray-50"
-              >
-                {" "}
-                GitHub
-              </a>
-            </li>
-          </ul>
+    <nav className="bg-black font-OpenSans shadow-lg">
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 flex items-center justify-between py-4">
+        {/* Logo or Brand Name */}
+        {/* Navigation Links */}
+        <ul className="flex items-center space-x-4">
+          {/* GitHub Link */}
+          <li>
+            <a
+              href="http://github.com/Hiba-Mohamed"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold py-2 px-6 text-white border border-teal-300 rounded-md hover:bg-teal-300 hover:text-gray-900 transition duration-300"
+            >
+              GitHub
+            </a>
+          </li>
+          {/* Add More Links (Optional) */}
+        </ul>
       </div>
     </nav>
   );

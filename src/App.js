@@ -4,9 +4,12 @@ import Home from "./pages/Home";
 import Heading from "./components/Header";
 import Footer from "./components/Footer";
 import ContactPage from "./pages/ContactPage";
+
 function App() {
   return (
-    <Router>
+    <Router basename="/TechPortfolio">
+      {" "}
+      {/* Set the base path */}
       <Heading />
       <Routes>
         <Route path="/" element={<Home />} />
