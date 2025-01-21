@@ -24,6 +24,29 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-10 py-12">
         {/* Project 1 */}
+
+        <a
+          href="https://hiba-mohamed.github.io/InterProSync/"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
+          <div className="text-center flex flex-col items-center gap-4 m-4 shadow-lg-custom rounded-md px-6 py-8 bg-gray-900 hover:bg-teal-600 transition duration-300 transform hover:scale-105">
+            <img
+              src="interLogo.png"
+              className="w-20"
+              alt="Vanilla JS NAS Logo"
+            />
+            <p className="text-lg font-semibold text-white">
+              InterproSync
+              <br />
+              React TS
+            </p>
+          </div>
+        </a>
+
+        {/* Project 2 */}
         <a
           href="https://hiba-mohamed.github.io/Collab-NAS-Project/"
           target="_blank"
@@ -39,8 +62,7 @@ const Projects = () => {
             </p>
           </div>
         </a>
-
-        {/* Project 2 */}
+        {/* Project 3 */}
         <a
           href="https://hiba-mohamed.github.io/Reactjs-Nurses-Assignment-Sheet/"
           target="_blank"
@@ -54,24 +76,6 @@ const Projects = () => {
               Nurses Assignment Sheet (NAS)
               <br />
               ReactJS
-            </p>
-          </div>
-        </a>
-
-        {/* Project 3 */}
-        <a
-          href="https://hiba-mohamed.github.io/Nurses-Assignment-Sheet/"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-aos="fade-up"
-          data-aos-delay="400"
-        >
-          <div className="text-center flex flex-col items-center gap-4 m-4 shadow-lg-custom rounded-md px-6 py-8 bg-gray-900 hover:bg-teal-600 transition duration-300 transform hover:scale-105">
-            <img src="logo.png" className="w-20" alt="Vanilla JS NAS Logo" />
-            <p className="text-lg font-semibold text-white">
-              Nurses Assignment Sheet (NAS)
-              <br />
-              Vanilla JS
             </p>
           </div>
         </a>
