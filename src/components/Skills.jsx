@@ -44,7 +44,7 @@ const Skills = () => {
               Web Development:
             </strong>
             <span className="block transition-opacity duration-500 group-hover:opacity-80">
-              HTML, CSS, React, Node.js, Material UI, Tailwind
+              HTML, CSS, React, Node.js, Material UI, Tailwind, Framer
             </span>
           </li>
           <li className="group">
@@ -60,7 +60,7 @@ const Skills = () => {
               Tools:
             </strong>
             <span className="block transition-opacity duration-500 group-hover:opacity-80">
-              Git, Figma, Canva, GitHub, AI
+              Git, Figma, Canva, GitHub, AI, Docker
             </span>
           </li>
           <li className="group">
